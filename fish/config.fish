@@ -24,7 +24,6 @@ alias gl='git log'
 alias gc='git commit'
 alias gcm='git commit -m'
 alias gp='git push'
-alias gd='git pull'
 
 alias gmd='git checkout main && git merge dev && git push && git checkout dev'
 alias gmdd='git push && git checkout main && git merge dev && git push && git checkout dev'
