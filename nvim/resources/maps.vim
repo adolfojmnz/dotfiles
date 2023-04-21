@@ -16,9 +16,6 @@ inoremap <F10> <esc> :NERDTreeToggle<CR>
 " delete white spaces
 noremap <F1> :FixWhitespace<cr>
 
-" auto completion
-inoremap <silent><expr> <c-space> coc#refresh()
-
 " move between windows
 noremap <C-h> <C-w>h
 noremap <C-l> <C-w>l
@@ -36,12 +33,8 @@ nnoremap <Leader>< 10<C-w><
 " Print working directory
 noremap <F3> :!pwd<CR>
 
-" Here start nschurmann's mappings
-" quick semicolon
-nnoremap <Leader>; $a;<Esc>
-
-" save buffer, quit and
-" quit discarting changes
+" Nschurmann's mappings
+" save buffer, quit and quit discarting changes
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>Q :q!<CR>
@@ -51,10 +44,6 @@ map <Leader>p :Files<CR>
 
 " buffers
 map <Leader>b :Buffers<cr>
-
-" faster scrolling
-nnoremap <Leader>j 10<C-e>
-nnoremap <Leader>k 10<C-y>
 
 set splitright
 function! OpenTerminal()
@@ -72,7 +61,7 @@ function! OpenTerminal()
     execute "q"
   else
     " open terminal
-    execute "vsp term://zsh"
+    execute "vsp term://fish"
 
     " turn off numbers
     execute "set nonu"

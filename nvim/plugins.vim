@@ -16,7 +16,6 @@ Plug 'EvanDotPro/nerdtree-symlink'
 " Typign
 Plug 'alvan/vim-closetag'
 Plug 'jiangmiao/auto-pairs'
-Plug 'neoclide/coc.nvim', {'branch': 'stable'}
 
 " Databases
 Plug 'nvim-lua/plenary.nvim'
