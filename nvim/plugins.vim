@@ -8,6 +8,7 @@ Plug 'mengelbrecht/lightline-bufferline'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'Yggdroot/indentLine'
 Plug 'khaveesh/vim-fish-syntax'
+Plug 'airblade/vim-gitgutter'
 
 " File Manager
 Plug 'scrooloose/nerdtree'
