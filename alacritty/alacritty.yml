@@ -1,16 +1,16 @@
 import:
-  - ~/dotfiles/alacritty/resources/colors.yml
-  - ~/dotfiles/alacritty/resources/cursor.yml
-  - ~/dotfiles/alacritty/resources/env.yml
-  - ~/dotfiles/alacritty/resources/fonts.yml
-  - ~/dotfiles/alacritty/resources/hints.yml
-  - ~/dotfiles/alacritty/resources/keybindings.yml
-  - ~/dotfiles/alacritty/resources/mouse.yml
-  - ~/dotfiles/alacritty/resources/scrolling.yml
-  - ~/dotfiles/alacritty/resources/selection.yml
-  - ~/dotfiles/alacritty/resources/shell.yml
-  - ~/dotfiles/alacritty/resources/visual_bell.yml
-  - ~/dotfiles/alacritty/resources/window.yml
+  - ~/.config/alacritty/resources/colors.yml
+  - ~/.config/alacritty/resources/cursor.yml
+  - ~/.config/alacritty/resources/env.yml
+  - ~/.config/alacritty/resources/fonts.yml
+  - ~/.config/alacritty/resources/hints.yml
+  - ~/.config/alacritty/resources/keybindings.yml
+  - ~/.config/alacritty/resources/mouse.yml
+  - ~/.config/alacritty/resources/scrolling.yml
+  - ~/.config/alacritty/resources/selection.yml
+  - ~/.config/alacritty/resources/shell.yml
+  - ~/.config/alacritty/resources/visual_bell.yml
+  - ~/.config/alacritty/resources/window.yml
 
 # Live config reload (changes require restart)
 live_config_reload: true
