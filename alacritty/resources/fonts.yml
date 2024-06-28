@@ -1,21 +1,21 @@
 font:
   normal:
-    family: Fira Mono
+    family: Ubuntu Mono
     style: Regular
 
   bold:
-    family: Fira Mono
+    family: Ubuntu Mono
     style: Bold
 
   italic:
-    family: Fira Mono
+    family: Ubuntu Mono
     style: Italic
 
   bold_italic:
-    family: Fira Mono
+    family: Ubuntu Mono
     style: Bold Italic
 
-  size: 11
+  size: 13
   offset:
     x: 2
     y: 1
